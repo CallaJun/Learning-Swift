@@ -132,7 +132,7 @@ func nextBus() {
         iterator++
     }
     
-    // Haverford to Bryn Mawr
+    /*// Haverford to Bryn Mawr
     switch weekday {
         case "Sunday": iterator = 0
         case "Monday": iterator = 20
@@ -154,9 +154,7 @@ func nextBus() {
         let nextBusArrival: String = readableTimeFormatter.stringFromDate(arriveBmc[iterator % arriveBmc.count])
         print("\(next + 1) HC to BMC: \(nextBusTime) to \(nextBusArrival)")
         iterator++
-    }
-
-    
+    }*/
 }
 populateScheduleArrays()
 nextBus()
